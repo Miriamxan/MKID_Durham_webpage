@@ -1,0 +1,52 @@
+title: "MKID Durham Group"
+author: "MKID Durham Group, Durham University"
+description: "Microwave Kinetic Inductance Detector research and instrumentation at Durham University."
+theme: beautiful-jekyll
+
+
+navbar-links:
+  Home: "index.md"
+  Research:
+    - Overview: "research.md"
+    - Projects: "research.md#projects"
+  Members: "members.md"
+  Publications: "publications.md"
+  Contact: "contact.md"
+
+title-img: "/assets/img/mkid_logo.png"
+
+social-network-links:
+  email: "mkidgroup@durham.ac.uk"
+  github: "Durham-MKID"
+  linkedin: "your-linkedin-profile"
+
+share-links-active:
+  twitter: true
+  facebook: false
+  linkedin: true
+
+url-pretty: "mkid-durham.org"
+
+navbar-col: "#F3F4F6"
+navbar-text-col: "#222222"
+page-col: "#FFFFFF"
+text-col: "#2E2E2E"
+link-col: "#00539C"
+hover-col: "#00467A"
+
+date_format: "%B %-d, %Y"
+timezone: "Europe/London"
+markdown: kramdown
+highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
