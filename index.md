@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Welcome to the MKID Durham Group
-subtitle: We develop and apply Microwave Kinetic Inductance Detectors (MKIDs) for astronomical spectroscopy and time-domain astrophysics at Durham University.
+title: MKID Durham 
+subtitle: The MKID Durham Group advances the design and application of Microwave Kinetic Inductance Detectors (MKIDs) as versatile photon-counting sensors, enabling high-precision spectroscopy and time-resolved studies across astronomy, biology, and other areas of experimental science.
 ---
 
 <center><img width="800" src="/assets/img/MKID_Lab_2025.jpg" alt="MKID Durham Group, 2025" /></center>
