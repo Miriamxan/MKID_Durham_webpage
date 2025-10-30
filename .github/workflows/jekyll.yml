@@ -1,15 +1,51 @@
-name: Beautiful Jekyll CI
-on: [push, pull_request]
+name: Jekyll site CI
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   build:
-    name: Build Jekyll
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - name: Build the site in the jekyll/builder container
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1
+
+      - name: Install dependencies
         run: |
-          export JEKYLL_VERSION=3.8
-          docker run \
-          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          -e PAGES_REPO_NWO=${{ github.repository }} \
-          jekyll/builder:$JEKYLL_VERSION /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+          gem install bundler jekyll
+          bundle init
+          echo 'gem "jekyll-paginate"' >> Gemfile
+          echo 'gem "jekyll-sitemap"' >> Gemfile
+          echo 'gem "kramdown-parser-gfm"' >> Gemfile
+          echo 'gem "beautiful-jekyll-theme", git: "https://github.com/daattali/beautiful-jekyll.git"' >> Gemfile
+          bundle install
+
+      - name: Build site
+        run: bundle exec jekyll build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
