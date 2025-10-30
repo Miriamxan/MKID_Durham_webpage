@@ -2,6 +2,10 @@
 
 title: "MKID Durham Group"
 author: "Microwave Kinetic Inductance Detector Group, Durham University"
+remote_theme: daattali/beautiful-jekyll
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
 
 
 
