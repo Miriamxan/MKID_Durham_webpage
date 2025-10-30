@@ -1,52 +1,83 @@
-title: "MKID Durham Group"
-author: "MKID Durham Group, Durham University"
-description: "Microwave Kinetic Inductance Detector research and instrumentation at Durham University."
-theme: beautiful-jekyll
+# MKID Durham Group Configuration File
 
+title: "MKID Durham Group"
+author: "Microwave Kinetic Inductance Detector Group, Durham University"
 
 navbar-links:
-  Home: "index.md"
   Research:
-    - Overview: "research.md"
-    - Projects: "research.md#projects"
-  Members: "members.md"
-  Publications: "publications.md"
-  Contact: "contact.md"
+    - Overview: "research/overview"
+    - KIDSpec Project: "research/kidspec"
+    - Detector Development: "research/detectors"
+    - Optical Design: "research/optics"
+    - Cryogenic Systems: "research/cryogenics"
+  Members: "members/current"
+  Publications: "publications/"
+  Outreach: "outreach/"
+  Contact: "contact/"
 
 title-img: "/assets/img/mkid_logo.png"
 
 social-network-links:
   email: "mkidgroup@durham.ac.uk"
   github: "Durham-MKID"
-  linkedin: "your-linkedin-profile"
+  youtube: /channel/UCb9MOi4lcNntMLo15oG8Z7A
+  google-scholar: citations?user=iHJKYjIAAAAJ&hl=en
+
+rss-description: RSS feed for MKID Durham Group
+url-pretty: "mkid-durham.github.io"
 
 share-links-active:
   twitter: true
-  facebook: false
   linkedin: true
+  facebook: false
 
-url-pretty: "mkid-durham.org"
+keywords: "MKID, spectroscopy, Durham, CfAI, detector, KIDSpec, superconducting, astronomy"
 
 navbar-col: "#F3F4F6"
-navbar-text-col: "#222222"
+navbar-text-col: "#202020"
+navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
-text-col: "#2E2E2E"
-link-col: "#00539C"
-hover-col: "#00467A"
+text-col: "#1A1A1A"
+link-col: "#0047AB"
+hover-col: "#003B8E"
+footer-col: "#F3F4F6"
+footer-text-col: "#555555"
+footer-link-col: "#0047AB"
+footer-hover-col: "#003B8E"
 
 date_format: "%B %-d, %Y"
 timezone: "Europe/London"
 markdown: kramdown
 highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+
+kramdown:
+  input: GFM
 
 defaults:
   - scope:
       path: ""
-      type: "pages"
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      social-share: true
+  - scope:
+      path: ""
     values:
       layout: "page"
 
 exclude:
-  - README.md
+  - CHANGELOG.md
+  - CNAME
   - Gemfile
   - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+  - docs/
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
