@@ -5,7 +5,7 @@ subtitle: The MKID Durham Group advances the design and application of Microwave
 ---
 
 <center>
-  <img width="800" src="/assets/mkid.png" alt="MKID Durham Group, 2025" />
+  <img width="800" src="/assets/mkid.png" alt="MKID Lab, 2021" />
 </center>
 <br>
 
