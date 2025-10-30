@@ -13,10 +13,10 @@ subtitle: Current members of the MKID Durham Group at CfAI, Durham University
 | Role | Name (with link to Departmental or CfAI page) |
 |---|---|
 | **Group Leader:** | [Prof. Kieran O’Brien](https://www.durham.ac.uk/staff/kieran-s-obrien/) |
-| **Postdoctoral Researcher:** | [Dr. Deli Geng](https://www.durham.ac.uk/staff/deli-geng/) |
-| **PhD Students:** | [Aurélie Magniez](https://www.durham.ac.uk/staff/aurelie-magniez/) |
+| **FPGA Engineer:** | [Dr. Deli Geng](https://www.durham.ac.uk/staff/deli-geng/) |
+| **Postdocs:** | [Aurélie Magniez](https://www.durham.ac.uk/staff/aurelie-magniez/) |
 |  | [James Gill-Fleming](https://www.durham.ac.uk/staff/james-p-fleming/) |
-|  | [Meryem Kübra Dağ](https://www.durham.ac.uk/staff/kubra-dag/) |
+| **PhD Students:** | [Meryem Kübra Dağ](https://www.durham.ac.uk/staff/kubra-dag/) |
 |  | [Jeremi Grabas](https://www.durham.ac.uk/staff/jeremi-grabas/) |
 |  | [Isabel Crossley](https://www.durham.ac.uk/staff/isabel-crossley/) |
 
