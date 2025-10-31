@@ -1,7 +1,6 @@
-
 ---
 layout: page
-title: Members 
+title: Members
 subtitle: Current members of the MKID Durham Group at CfAI, Durham University
 ---
 
