@@ -10,16 +10,22 @@ plugins:
 
 
 navbar-links:
-  Research:
-    - Overview: "research/overview"
-    - KIDSpec Project: "research/kidspec"
-    - Detector Development: "research/detectors"
-    - Optical Design: "research/optics"
-    - Cryogenic Systems: "research/cryogenics"
-  Members: "members/current"
-  Publications: "publications/"
-  Outreach: "outreach/"
-  Contact: "contact/"
+  MKIDs: "mkids"
+  LAB: "lab"
+  PROJECTS:
+    - "KIDSpec": "projects/kidspec"
+    - "MKID CGI": "projects/mkid_cgi"
+    - "MKID Microscopy": "projects/microscopy"
+    - "POPY": "projects/popy"
+    - "READOUT": "projects/readout"
+    - "SUPERSMART": "projects/supersmart"
+  PEOPLE:
+    - "Group Leader": "people/leader"
+    - "Postdocs": "people/postdocs"
+    - "PhD Students": "people/phd"
+    - "Opportunities": "people/opportunities"
+  NEWS: "news"
+  CONTACT: "contact"
 
 title-img: "/assets/img/mkid_logo.png"
 
