@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Readout
+permalink: /readout/
 ---
-
 
 # MKID Readout System
 
