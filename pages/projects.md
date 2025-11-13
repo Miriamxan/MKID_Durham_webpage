@@ -9,5 +9,5 @@ permalink: /projects/
 - [MKID CGI](/projects/mkid_cgi/)
 - [MKID Microscopy](/projects/microscopy/)
 - [POPY](/projects/popy/)
-- [READOUT](/readout/)
+- [READOUT](/projects/readout/)
 - [SUPERSMART](/projects/supersmart/)
