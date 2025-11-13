@@ -1,3 +1,9 @@
+---
+layout: page
+title: Readout
+---
+
+
 # MKID Readout System
 
 A core strength of MKIDs are their **intrinsic frequency multiplexing capability**: by assigning each resonator a unique resonance frequency, large arrays of “pixels” can be read out simultaneously over a single microwave feedline. Our current readout platform builds on this principle and integrates both FPGA-based digital signal processing (DSP) and GPU-accelerated processing to handle the resulting channel density in real time.
