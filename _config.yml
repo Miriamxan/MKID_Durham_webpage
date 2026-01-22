@@ -18,7 +18,7 @@ navbar-links:
     - "MKID CGI": "projects/mkid_cgi"
     - "MKID Microscopy": "projects/microscopy"
     - "POPY": "projects/popy"
-    - "READOUT": "projects/readout"
+    - "H.O.M.E.R": "projects/readout"
     - "SUPERSMART": "projects/supersmart"
   PEOPLE:
     - "Group Leader": "members/people"
