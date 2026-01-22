@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Jeremi M. Grabas"
-permalink: /people/phd/
+permalink: members/people/phd/
 ---
 
 **Jeremi M. Grabas**  
