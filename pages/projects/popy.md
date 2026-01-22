@@ -79,7 +79,7 @@ This approach is highly relevant for **future extremely large telescopes**, wher
   SPIE, Montréal, Canada, Aug. 2022, p. 94.  
   doi: **10.1117/12.2627026**
 
-  - **Magniez, A.**, Bond, C. Z., Wizinowich, P., Morris, T., & O’Brien, K.,  
+- **Magniez, A.**, Bond, C. Z., Wizinowich, P., Morris, T., & O’Brien, K.,  
   *Polychromatic pyramid wavefront sensor with MKID technology for high-contrast imaging*,  
   **Royal Astronomical Society Techniques and Instruments (RASTI)**,  
   5, 1–16 (2026).  
