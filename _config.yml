@@ -21,7 +21,7 @@ navbar-links:
     - "READOUT": "projects/readout"
     - "SUPERSMART": "projects/supersmart"
   PEOPLE:
-    - "Group Leader": "members/people/leader"
+    - "Group Leader": "members/people"
     - "Postdocs": "members/people/postdocs"
     - "PhD Students": "members/people/phd"
     - "Opportunities": "members/people/opportunities"
