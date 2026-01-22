@@ -10,6 +10,7 @@ plugins:
 
 
 navbar-links:
+  Home: "/"
   MKIDs: "mkids"
   LAB: "lab"
   PROJECTS:
@@ -26,6 +27,7 @@ navbar-links:
     - "Opportunities": "people/opportunities"
   NEWS: "news"
   CONTACT: "contact"
+
 
 title-img: "/assets/img/mkid_logo.png"
 
