@@ -13,10 +13,6 @@ permalink: /projects/popy/
 # POPY
 ## A Polychromatic Pyramid Wavefront Sensor for Extreme Adaptive Optics
 
-
-
-## A Polychromatic Pyramid Wavefront Sensor for Extreme Adaptive Optics
-
 ---
 
 Modern ground-based telescopes must observe through Earth’s turbulent atmosphere, which distorts incoming starlight and blurs astronomical images. Adaptive Optics (AO) systems correct these distortions in real time by measuring the incoming wavefront and adjusting a deformable mirror hundreds to thousands of times per second.
