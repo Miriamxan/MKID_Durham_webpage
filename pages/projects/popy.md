@@ -3,7 +3,7 @@ layout: page
 title: "POPY"
 permalink: /projects/popy/
 ---
-<img src="{{ site.baseurl }}/assets/img/projects/popy/popy_logo.png"
+<img src="{{ site.baseurl }}/assets/img//popy/popy_logo.png"
      alt="POPY logo"
      style="max-width:350px; margin-bottom:30px;">
 
