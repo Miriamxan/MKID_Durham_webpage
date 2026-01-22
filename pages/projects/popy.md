@@ -3,8 +3,12 @@ layout: page
 title: "POPY"
 permalink: /projects/popy/
 ---
+<p align="center">
+  <img src="{{ site.baseurl }}/assets/img/popy/popy_logo.png"
+       alt="POPY logo"
+       width="220">
+</p>
 
-![POPY logo]({{ site.baseurl }}/assets/img/popy/popy_logo.png)
 
 # POPY
 ## A Polychromatic Pyramid Wavefront Sensor for Extreme Adaptive Optics
