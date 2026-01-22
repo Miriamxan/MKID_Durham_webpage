@@ -1,1 +1,9 @@
+---
+layout: page
+title: "Meryem Dağ"
+permalink: /people/phd/meryem-dag/
+---
+
+**Meryem Dağ** — PhD Student (CfAI & CEA, Durham University)  
+[Durham personal page](https://www.durham.ac.uk/staff/meryem-k-dag/)
 
