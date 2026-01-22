@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Isabelle Crossley"
-permalink: /people/phd/
+permalink: /members/people/phd/
 ---
 
 **Isabelle Crossley**  
