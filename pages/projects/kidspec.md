@@ -4,8 +4,6 @@ title: "KIDSpec"
 permalink: /projects/kidspec/
 ---
 
-# KIDSpec
-
 KIDSpec (O’Brien et al., 2020) is a novel spectrograph concept designed to achieve medium spectral resolution, wide wavelength coverage, and high optical throughput. The instrument is specifically developed to exploit the full collecting power of modern large-aperture telescopes, where detector performance and photon efficiency increasingly dominate observational capability.
 
 The design builds upon the original concept proposed by Cropper et al. (2003), combining a linear array of Microwave Kinetic Inductance Detectors (MKIDs) with an Echelle diffraction grating. In this configuration, light dispersed by the grating is spread into multiple spectral orders that overlap spatially on the detector. Unlike conventional spectrographs, these overlapping orders are not separated optically. Instead, the intrinsic energy resolution of MKIDs is used to identify the wavelength of each detected photon and thereby determine its diffraction order.
