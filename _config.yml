@@ -29,7 +29,7 @@ navbar-links:
   CONTACT: "contact"
 
 
-title-img: "assets/img/durham_logo.png"
+title-img: "/assets/img/durham_logo.png"
 
 social-network-links:
   email: "mkidgroup@durham.ac.uk"
