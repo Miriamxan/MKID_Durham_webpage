@@ -1099,4 +1099,19 @@ pre {
   #nav-search-text {
     display: inline-block;
   }
+  .navbar {
+  min-height: 80px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 60px;
+  width: auto;
+}
+
+  
 }
