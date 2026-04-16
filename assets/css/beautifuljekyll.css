@@ -1099,7 +1099,7 @@ pre {
   #nav-search-text {
     display: inline-block;
   }
-  .navbar {
+.navbar {
   min-height: 100px;
 }
 
@@ -1108,9 +1108,10 @@ pre {
   align-items: center;
 }
 
-.navbar-brand img {
-  height: 80px;
-  width: auto;
+.navbar-brand-logo img {
+  height: 80px !important;
+  width: auto !important;
+  max-height: none !important;
 }
 
   
