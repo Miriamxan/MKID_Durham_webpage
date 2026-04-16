@@ -23,6 +23,5 @@ subtitle: Current members of the MKID Durham Group at CfAI, Durham University
 
 ### Group Overview
 
-The **MKID Durham Group** is part of the [Centre for Advanced Instrumentation (CfAI)](https://www.durham.ac.uk/research/institutes-and-centres/advanced-instrumentation/), focusing on the development and application of **Microwave Kinetic Inductance Detectors (MKIDs)** for next-generation astronomical instrumentation.  
-Our research spans detector characterisation, cryogenic readout electronics, optical coupling, and MKID-based spectrographs such as **KIDSpec**, enabling time-resolved and energy-sensitive astronomical observations.
+The **MKID Durham Group** is part of the [Centre for Advanced Instrumentation (CfAI)](https://www.durham.ac.uk/research/institutes-and-centres/advanced-instrumentation/), focusing on the application of **Microwave Kinetic Inductance Detectors (MKIDs)** for next-generation instrumentation. 
 
