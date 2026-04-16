@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Microwave Kinetic Inductance Detectors (MKIDs)"
-permalink: /mkids/
+permalink: /mkid/
 ---
 
 Microwave Kinetic Inductance Detectors (MKIDs) are a class of superconducting photon detectors that provide single-photon sensitivity, intrinsic energy resolution, and microsecond timing accuracy. These capabilities make MKIDs suitable for applications ranging from astronomical instrumentation to quantum sensing and low-light microscopy.
