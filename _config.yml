@@ -2,6 +2,7 @@
 
 title: "Durham MKID Lab"
 author: "Microwave Kinetic Inductance Detector Group, Durham University"
+cover-img: /assets/img/Adsız tasarım.png
 remote_theme: daattali/beautiful-jekyll
 plugins:
   - jekyll-paginate
