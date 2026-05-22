@@ -38,6 +38,11 @@ social-network-links:
   youtube: /channel/UCquDXrbIey5fRqxwYo_ndbQ
   google-scholar: citations?user=iHJKYjIAAAAJ&hl=en
 
+    custom:
+    - title: ResearchGate
+      url: "https://www.researchgate.net/lab/Durham-MKID-Lab-Kieran-OBrien"
+      icon: "fab fa-researchgate"
+
 rss-description: RSS feed for MKID Durham Group
 url-pretty: "mkid-durham.github.io"
 
