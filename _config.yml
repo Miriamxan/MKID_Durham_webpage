@@ -2,72 +2,68 @@
 
 title: "Durham MKID Lab"
 author: "Microwave Kinetic Inductance Detector Group, Durham University"
-
-cover-img: "/assets/img/Adsız tasarım.png"
-title-img: "/assets/img/LOGO Final.png"
-
+cover-img: /assets/img/Adsız tasarım.png
 remote_theme: daattali/beautiful-jekyll
-
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
 
-* jekyll-paginate
-* jekyll-sitemap
+
 
 navbar-links:
-Home: "/"
-MKIDs: "mkids"
-LAB: "lab"
-PROJECTS:
-- "KIDSpec": "projects/kidspec"
-- "MKID CGI": "projects/mkid_cgi"
-- "MKID Microscopy": "projects/microscopy"
-- "POPY": "projects/popy"
-- "H.O.M.E.R": "projects/readout"
-- "SUPERSMART": "projects/supersmart"
-PEOPLE:
-- "Group Leader": "members/people"
-- "Postdocs": "members/people/postdocs"
-- "PhD Students": "members/people/phd"
-- "Opportunities": "members/people/opportunities"
-NEWS: "news"
-CONTACT: "contact"
+  Home: "/"
+  MKIDs: "mkids"
+  LAB: "lab"
+  PROJECTS:
+    - "KIDSpec": "projects/kidspec"
+    - "MKID CGI": "projects/mkid_cgi"
+    - "MKID Microscopy": "projects/microscopy"
+    - "POPY": "projects/popy"
+    - "H.O.M.E.R": "projects/readout"
+    - "SUPERSMART": "projects/supersmart"
+  PEOPLE:
+    - "Group Leader": "members/people"
+    - "Postdocs": "members/people/postdocs"
+    - "PhD Students": "members/people/phd"
+    - "Opportunities": "members/people/opportunities"
+  NEWS: "news"
+  CONTACT: "contact"
+
+
+title-img: "/assets/img/LOGO Final.png"
 
 social-network-links:
-email: "[mkids@durhamuniversity.onmicrosoft.com](mailto:mkids@durhamuniversity.onmicrosoft.com)"
-github: "Durham-MKID"
-youtube: "/channel/UCquDXrbIey5fRqxwYo_ndbQ"
-google-scholar: "citations?user=iHJKYjIAAAAJ&hl=en"
-custom:
-- title: ResearchGate
-url: "https://www.researchgate.net/lab/Durham-MKID-Lab-Kieran-OBrien"
-icon: "fab fa-researchgate"
+  email: "mkids@durhamuniversity.onmicrosoft.com"
+  github: "Durham-MKID"
+  youtube: /channel/UCquDXrbIey5fRqxwYo_ndbQ
+  google-scholar: citations?user=iHJKYjIAAAAJ&hl=en
 
-rss-description: "RSS feed for MKID Durham Group"
+    custom:
+    - title: ResearchGate
+      url: "https://www.researchgate.net/lab/Durham-MKID-Lab-Kieran-OBrien"
+      icon: "fab fa-researchgate"
+
+rss-description: RSS feed for MKID Durham Group
 url-pretty: "mkid-durham.github.io"
 
 share-links-active:
-twitter: true
-linkedin: true
-facebook: false
+  twitter: true
+  linkedin: true
+  facebook: false
 
 keywords: "MKID, spectroscopy, Durham, CfAI, detector, KIDSpec, superconducting, astronomy"
 
-# Purple header design
-
-navbar-col: "#5B2C83"
-navbar-text-col: "#FFFFFF"
-navbar-border-col: "#442061"
-
+navbar-col: "#F3F4F6"
+navbar-text-col: "#202020"
+navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
 text-col: "#1A1A1A"
-
-link-col: "#5B2C83"
-hover-col: "#7D4CB5"
-
-footer-col: "#2F1847"
-footer-text-col: "#E8E8E8"
-footer-link-col: "#D8B4FE"
-footer-hover-col: "#FFFFFF"
+link-col: "#0047AB"
+hover-col: "#003B8E"
+footer-col: "#F3F4F6"
+footer-text-col: "#555555"
+footer-link-col: "#0047AB"
+footer-hover-col: "#003B8E"
 
 date_format: "%B %-d, %Y"
 timezone: "Europe/London"
@@ -77,29 +73,31 @@ permalink: /:year-:month-:day-:title/
 paginate: 5
 
 kramdown:
-input: GFM
+  input: GFM
 
 defaults:
-
-* scope:
-  path: ""
-  type: "posts"
-  values:
-  layout: "post"
-  comments: true
-  social-share: true
-* scope:
-  path: ""
-  values:
-  layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+      social-share: true
+  - scope:
+      path: ""
+    values:
+      layout: "page"
 
 exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+  - docs/
 
-* CHANGELOG.md
-* CNAME
-* Gemfile
-* Gemfile.lock
-* LICENSE
-* README.md
-* screenshot.png
-* docs/
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
